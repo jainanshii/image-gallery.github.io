@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+body{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+ margin-top: 40px;
+  overflow: -moz-hidden-unscrollable;
+}
+.container{
+    display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+align-items: center;
+  width:1000px;
+  height:1000px;
+background-color: #8fbcc7;
+}
+.img1{
+  width:100px;
+height:200px;
+  filter:blur(1.5px);
+  box-shadow:-5px -5px 10px #9292d3;
+  margin-right: 50px;
+  margin-left:50px;
+ margin-top: 20px;
+  
+}
+
